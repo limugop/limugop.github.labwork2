@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/main/style/style.css">
+  <link rel="stylesheet" href="/main/style/lightslider.css">
+  <link rel="icon" type="images/x-icon" href="/img/flower_nature_lotus_plant_icon_258396.png">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="/main/files/JQuery3.3.1.js"></script>
+  <script src="/main/files/lightslider.js"></script>
+  <script src="/code.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <title>Movie</title>
+</head>
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand mx-5" href="#">
+      <img class="navbar-logo" src="/main/images/web-icon-line-on-white-background-image-for-web-presentation-logo-icon-symbol-free-vector.jpg" alt="Your Logo">
+    </a>
+    <button id="sideNavButton" class="btn btn-light ">
+      <i class="fas fa-bars"></i>
+    </button>
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse  " id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active mx-3">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="second.html">About</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="third.html">Services</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="four.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <button id="toggleButton" class="btn btn-dark btn-sm ml-auto"> <i class="fas fa-bars"></i></button>
+    </div>
+  </nav>
+  
+
+  <div id="sidebar" class="sidenav">
+    <span class="close-button btn-close btn-close-white" id="closeButton"></span>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </div>
+
+  <section id="main">
+
+    <h1 class="showcase-heading"> Showcase</h1>
+
+    <ul id="autoWidth" class="cs-hidden">
+      <li class="item-a">
+        <div class="showcase-box">
+          <img src="/main/images/photo_2023-10-11_14-30-56.jpg" alt="">
+        </div>
+      </li>
+      <li class="item-b">
+        <div class="showcase-box">
+          <img src="/main/images/photo_2023-10-11_14-30-51.jpg" alt="">
+        </div>
+      </li>
+      <li class="item-c">
+        <div class="showcase-box">
+          <img src="/main/images/photo_2023-09-30_10-45-34.jpg" alt="">
+        </div>
+      </li>
+      <li class="item-a">
+        <div class="showcase-box">
+          <img src="/main/images//photo_2023-10-11_14-30-42.jpg" alt="">
+        </div>
+      </li>
+      <li class="item-a">
+        <div class="showcase-box">
+          <img src="/main/images/photo_2023-11-01_21-58-38.jpg" alt="">
+        </div>
+      </li>
+     
+    </ul>
+  </section>
+
+  <!--latest-movies---------------------->
+  <section id="latest">
+    <h2 class="latest-heading">Latest Movies</h2>
+    <!--slider------------------->
+    <ul id="autoWidth2" class="cs-hidden">
+        <!--slide-box-1------------------>
+        <li class="item-a">
+            <div class="latest-box">
+                <!--img-------->
+                <div class="latest-b-img">
+                    <img src="/main/images//photo_1_2023-09-30_11-42-17.jpg">
+                </div>
+                <!--text---------->
+                <div class="latest-b-text">
+                    <strong>Happy Togerher</strong>
+                    <p>-</p>
+                </div>
+            </div>
+        </li>
+<!--slide-box-2------------------>
+<li class="item-b">
+    <div class="latest-box">
+        <!--img-------->
+        <div class="latest-b-img">
+            <img src="/main/images/photo_2_2023-09-30_11-42-17.jpg">
+        </div>
+        <!--text---------->
+        <div class="latest-b-text">
+            <strong>Shaonian de ni</strong>
+            <p>-</p>
+        </div>
+    </div>
+</li>
+<!--slide-box-3------------------>
+<li class="item-c">
+    <div class="latest-box">
+        <!--img-------->
+        <div class="latest-b-img">
+            <img src="/main/images/photo_2_2023-09-30_16-13-25.jpg">
+        </div>
+        <!--text---------->
+        <div class="latest-b-text">
+            <strong>Love after Love</strong>
+            <p>-</p>
+        </div>
+    </div>
+</li>
+<!--slide-box-4------------------>
+<li class="item-d">
+    <div class="latest-box">
+        <!--img-------->
+        <div class="latest-b-img">
+            <img src="/main/images/photo_5_2023-09-30_16-13-25.jpg">
+        </div>
+        <!--text---------->
+        <div class="latest-b-text">
+            <strong>Drive my car</strong>
+            <p>-</p>
+        </div>
+    </div>
+</li>
+<!--slide-box-5------------------>
+<li class="item-e">
+    <div class="latest-box">
+        <!--img-------->
+        <div class="latest-b-img">
+            <img src="/main/images/photo_3_2023-09-30_20-10-09.jpg">
+        </div>
+        <!--text---------->
+        <div class="latest-b-text">
+            <strong>Audrey Hepburn</strong>
+            <p>-</p>
+        </div>
+    </div>
+</li>
+<!--slide-box-6------------------>
+<li class="item-f">
+    <div class="latest-box">
+        <!--img-------->
+        <div class="latest-b-img">
+            <img src="/main/images/photo_3_2023-09-30_16-13-25.jpg">
+        </div>
+        <!--text---------->
+        <div class="latest-b-text">
+            <strong>Kin 2018</strong>
+            <p>-</p>
+        </div>
+    </div>
+</li>
+<!--slide-box-7------------------>
+<li class="item-g">
+    <div class="latest-box">
+        <!--img-------->
+        <div class="latest-b-img">
+            <img src="/main/images/photo_4_2023-09-30_11-42-17.jpg">
+        </div>
+        <!--text---------->
+        <div class="latest-b-text">
+            <strong>Kin 2018</strong>
+            <p>-</p>
+        </div>
+    </div>
+</li>
+<li class="item-g">
+  <div class="latest-box">
+      <!--img-------->
+      <div class="latest-b-img">
+          <img src="/main/images/photo_2023-11-01_21-58-50.jpg">
+      </div>
+      <!--text---------->
+      <div class="latest-b-text">
+          <strong>Kin 2018</strong>
+          <p>-</p>
+      </div>
+  </div>
+</li>
+<li class="item-g">
+  <div class="latest-box">
+      <!--img-------->
+      <div class="latest-b-img">
+          <img src="/main/images/photo_5_2023-09-30_11-42-17.jpg">
+      </div>
+      <!--text---------->
+      <div class="latest-b-text">
+          <strong>Kin 2018</strong>
+          <p>-</p>
+      </div>
+  </div>
+</li>
+<li class="item-g">
+  <div class="latest-box">
+      <!--img-------->
+      <div class="latest-b-img">
+          <img src="/main/images/photo_2023-11-01_21-58-50.jpg">
+      </div>
+      <!--text---------->
+      <div class="latest-b-text">
+          <strong>Kin 2018</strong>
+          <p>-</p>
+      </div>
+  </div>
+</li>
+      </ul>
+</section>
+
+    <!--movies---------------------------->
+    <div class="movies-heading">
+      <h2>Movies</h2>
+  </div>
+  <section id="movies-list">
+      <!--box-1------------------------>
+      <div class="movies-box">
+          <!--img------------>
+          <div class="movies-img">
+              <div class="quality">HDRip</div>
+              <img src="/main/images/770bf9d7-04f3-467d-a711-c4bf4a773c8d.jpeg">
+          </div>
+          <!--text--------->
+          <a href="https://www.imdb.com/title/tt0111161/?ref_=chttp_t_1">
+            Побег из Шоушенка
+          </a>
+      </div>
+       <!--box-2------------------------>
+       <div class="movies-box">
+          <!--img------------>
+          <div class="movies-img">
+              <div class="quality">HDRip</div>
+              <img src="/main/images/6584334226.jpg">
+          </div>
+          <!--text--------->
+          <a href="https://www.imdb.com/title/tt0068646/?ref_=chttp_t_2">
+            Крестный отец
+          </a>
+      </div>
+       <!--box-3------------------------>
+       <div class="movies-box">
+          <!--img------------>
+          <div class="movies-img">
+              <div class="quality">HDRip</div>
+              <img src="/main/images/600x900.webp">
+          </div>
+          <!--text--------->
+          <a href="https://www.imdb.com/title/tt0468569/?ref_=chttp_t_3">
+            Тёмный рыцарь
+          </a>
+      </div>
+       <!--box-4------------------------>
+       <div class="movies-box">
+          <!--img------------>
+          <div class="movies-img">
+              <div class="quality">HDRip</div>
+              <img src="/main/images/5af6a31e55eebeacc557df453cc05238.jpg">
+          </div>
+          <!--text--------->
+          <a href="https://www.imdb.com/title/tt0071562/?ref_=chttp_t_4">
+            The Godfather Part II
+          </a>
+      </div>
+       <!--box-5------------------------>
+       <div class="movies-box">
+          <!--img------------>
+          <div class="movies-img">
+              <div class="quality">HDRip</div>
+              <img src="/main/images/2408252494.jpg">
+          </div>
+          <!--text--------->
+          <a href="https://www.imdb.com/title/tt0050083/?ref_=chttp_t_5">
+            12 Angry Men
+          </a>
+      </div>
+       <!--box-6------------------------>
+       <div class="movies-box">
+          <!--img------------>
+          <div class="movies-img">
+              <div class="quality">HDRip</div>
+              <img src="/main/images/photo_2023-11-01_21-58-50.jpg">
+          </div>
+          <!--text--------->
+          <a href="https://darksouls.fandom.com/ru/wiki/Dark_Souls_Wiki">
+              Dark Souls
+          </a>
+      </div>
+       <!--box-7------------------------>
+       <div class="movies-box">
+          <!--img------------>
+          <div class="movies-img">
+              <div class="quality">HDRip</div>
+              <img src="/main/images/0dc9f7dd42a17b56c3909ba270f9e42b--schindlers-list-original-movie-posters.jpg">
+          </div>
+          <!--text--------->
+          <a href="https://www.imdb.com/title/tt0108052/?ref_=chttp_t_6">
+            Schindler's List
+          </a>
+      </div>
+       <!--box-8------------------------>
+       <div class="movies-box">
+          <!--img------------>
+          <div class="movies-img">
+              <div class="quality">HDRip</div>
+              <img src="/main/images/w1500_3444838.jpg">
+          </div>
+          <!--text--------->
+          <a href="https://www.imdb.com/title/tt0167260/?ref_=chttp_t_7">
+            The Lord of the Rings: The Return of the King
+          </a>
+      </div>
+  </section>
+  
+  <!--btns--------------->
+  <div class="btns">
+    <a href="index.html">Previous</a>
+    <a href="second.html">Next</a>
+</div>
+<!--footer------------------>
+<footer>
+  <p>All rights reserved</p>
+  <p>Copyright 2023 - Kali</p>
+</footer>
+
+  <audio id="audioElement" src="/mp3/frazy-iunitov-iz-warcraft-3_n5hR7OYg.mp3"></audio>
+
+  <script>
+    // JavaScript function to handle button click
+    function toggleNavbarClass() {
+      var navbar = document.querySelector('.navbar');
+      navbar.classList.toggle('bg-dark'); // Toggle the background color class
+    }
+
+    // Add a click event listener to the button
+    document.getElementById('toggleButton').addEventListener('click', toggleNavbarClass);
+
+    // Create an animation using JavaScript
+    var logo = document.querySelector('.navbar-brand');
+    logo.addEventListener('mouseover', function() {
+      logo.style.transform = 'rotate(360deg)';
+    });
+
+   
+    document.addEventListener('keypress', function(e) {
+      if (e.key === 's') { // Play sound when 's' key is pressed
+        var audioElement = document.getElementById('audioElement');
+        audioElement.play();
+      }
+    });
+    
+    // Add a click event listener to the logo
+    logo.addEventListener('click', function() {
+      alert('Logo Clicked');
+    });
+
+ // JavaScript function to handle button click
+ document.getElementById('sideNavButton').addEventListener('click', function() {
+    openSidebar();
+  });
+  document.getElementById('closeButton').addEventListener('click', function() {
+      closeSidebar();
+    });
+
+  function openSidebar() {
+    var sidebar = document.getElementById('sidebar');
+    sidebar.classList.toggle('open');
+  }
+  
+  function closeSidebar() {
+      var sidebar = document.getElementById('sidebar');
+      sidebar.classList.remove('open');
+    }
+
+    $(document).ready(function() {
+    $('#autoWidth,#autoWidth2').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth, #autoWidth2').removeClass('cS-hidden');
+        } 
+    });  
+  });
+  </script>
+  
+</body>
+</html>
